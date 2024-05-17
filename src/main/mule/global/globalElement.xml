@@ -15,6 +15,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<http:request-config name="HTTP_Request_configuration" doc:name="HTTP Request configuration" doc:id="ec219eab-48a2-468b-9ef8-3f269d1f19e0" >
 		<http:request-connection host="${http.requester.host}" port="${http.requester.port}" />
 	</http:request-config>
+	<configuration doc:name="Configuration" doc:id="bf1e6396-2317-477f-8f6e-6b5ddfc7e778" defaultErrorHandler-ref="globalErrorHandlerError_Handler" />
 	
 	
 </mule>
